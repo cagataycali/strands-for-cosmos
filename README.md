@@ -1,15 +1,39 @@
-# strands-cosmos
+<div align="center">
+  <div>
+    <a href="https://strandsagents.com">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://strandsagents.com/latest/assets/wordmark-github-dark.svg">
+        <img src="https://strandsagents.com/latest/assets/wordmark-github-light.svg" alt="Strands" width="320">
+      </picture>
+    </a>
+  </div>
 
-[![PyPI version](https://badge.fury.io/py/strands-cosmos.svg)](https://pypi.org/project/strands-cosmos/)
-[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://cagataycali.github.io/strands-cosmos/)
-[![Awesome Strands Agents](https://img.shields.io/badge/Awesome-Strands%20Agents-00FF77?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjkwIiBoZWlnaHQ9IjQ2MyIgdmlld0JveD0iMCAwIDI5MCA0NjMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik05Ny4yOTAyIDUyLjc4ODRDODUuMDY3NCA0OS4xNjY3IDcyLjIyMzQgNTYuMTM4OSA2OC42MDE3IDY4LjM2MTZDNjQuOTgwMSA4MC41ODQzIDcxLjk1MjQgOTMuNDI4MyA4NC4xNzQ5IDk3LjA1MDFMMjM1LjExNyAxMzkuNzc1QzI0NS4yMjMgMTQyLjc2OSAyNDYuMzU3IDE1Ni42MjggMjM2Ljg3NCAxNjEuMjI2TDMyLjU0NiAyNjAuMjkxQy0xNC45NDM5IDI4My4zMTYgLTkuMTYxMDcgMzUyLjc0IDQxLjQ4MzUgMzY3LjU5MUwxODkuNTUxIDQxMS4wMDlMMTkwLjEyNSA0MTEuMTY5QzIwMi4xODMgNDE0LjM3NiAyMTQuNjY1IDQwNy4zOTYgMjE4LjE5NiAzOTUuMzU1QzIyMS43ODQgMzgzLjEyMiAyMTQuNzc0IDM3MC4yOTYgMjAyLjU0MSAzNjYuNzA5TDU0LjQ3MzggMzIzLjI5MUM0NC4zNDQ3IDMyMC4zMjEgNDMuMTg3OSAzMDYuNDM2IDUyLjY4NTcgMzAxLjgzMUwyNTcuMDE0IDIwMi43NjZDMzA0LjQzMiAxNzkuNzc2IDI5OC43NTggMTEwLjQ4MyAyNDguMjMzIDk1LjUxMkw5Ny4yOTAyIDUyLjc4ODRaIiBmaWxsPSIjRkZGRkZGIi8+CjxwYXRoIGQ9Ik0yNTkuMTQ3IDAuOTgxODEyQzI3MS4zODkgLTIuNTc0OTggMjg0LjE5NyA0LjQ2NTcxIDI4Ny43NTQgMTYuNzA3NEMyOTEuMzExIDI4Ljk0OTIgMjg0LjI3IDQxLjc1NyAyNzIuMDI4IDQ1LjMxMzhMNzEuMTcyNyAxMDMuNjcxQzQwLjcxNDIgMTEyLjUyMSAzNy4xOTc2IDE1NC4yNjIgNjUuNzQ1OSAxNjguMDgzTDI0MS4zNDMgMjUzLjA5M0MzMDcuODcyIDI4NS4zMDIgMjk5Ljc5NCAzODIuNTQ2IDIyOC44NjIgNDAzLjMzNkwzMC40MDQxIDQ2MS41MDJDMTguMTcwNyA0NjUuMDg4IDUuMzQ3MDggNDU4LjA3OCAxLjc2MTUzIDQ0NS44NDRDLTEuODIzOSA0MzMuNjExIDUuMTg2MzcgNDIwLjc4NyAxNy40MTk3IDQxNy4yMDJMMjE1Ljg3OCAzNTkuMDM1QzI0Ni4yNzcgMzUwLjEyNSAyNDkuNzM5IDMwOC40NDkgMjIxLjIyNiAyOTQuNjQ1TDQ1LjYyOTcgMjA5LjYzNUMtMjAuOTgzNCAxNzcuMzg2IC0xMi43NzcyIDc5Ljk4OTMgNTguMjkyOCA1OS4zNDAyTDI1OS4xNDcgMC45ODE4MTJaIiBmaWxsPSIjRkZGRkZGIi8+Cjwvc3ZnPgo=&logoColor=white)](https://github.com/cagataycali/awesome-strands-agents)
+  <h1>
+    Strands Cosmos
+  </h1>
 
-<p align="center">
-  <img src="strands-cosmos-logo.svg" alt="Strands Cosmos" width="180">
-</p>
+  <h2>
+    NVIDIA Cosmos for Strands Agents — reason and generate on local compute
+  </h2>
+
+  <div align="center">
+    <a href="https://pypi.org/project/strands-cosmos/"><img alt="PyPI Version" src="https://img.shields.io/pypi/v/strands-cosmos"/></a>
+    <a href="https://github.com/strands-labs/strands-for-cosmos"><img alt="GitHub stars" src="https://img.shields.io/github/stars/strands-labs/strands-for-cosmos"/></a>
+    <a href="https://github.com/strands-labs/strands-for-cosmos/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/strands-labs/strands-for-cosmos"/></a>
+    <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos3/"><img alt="Cosmos 3" src="https://img.shields.io/badge/NVIDIA-Cosmos%203-76B900?logo=nvidia"/></a>
+    <a href="https://huggingface.co/nvidia/Cosmos-Reason2-2B"><img alt="Cosmos-Reason2" src="https://img.shields.io/badge/🤗-Cosmos--Reason2-yellow"/></a>
+  </div>
+
+  <p>
+    <a href="https://strandsagents.com/">Strands Docs</a>
+    ◆ <a href="https://strands-labs.github.io/strands-for-cosmos/">Cosmos Docs</a>
+    ◆ <a href="https://research.nvidia.com/labs/cosmos-lab/">NVIDIA Cosmos</a>
+    ◆ <a href="https://github.com/cagataycali/awesome-strands-agents">Awesome Strands Agents</a>
+  </p>
+</div>
 
 **NVIDIA Cosmos for [Strands Agents](https://strandsagents.com).** Give your agent eyes that
-understand physics and hands that generate video, audio, and robot actions - on local compute.
+understand physics and hands that generate video, audio, and robot actions — on local compute.
 
 **4 model providers** (Cosmos 3 omnimodal Reasoner & Generator + Cosmos-Reason2 VLM) and
 **45 tools** spanning the full pipeline: reasoning, generation, curation, post-training,

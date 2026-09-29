@@ -1,8 +1,30 @@
-<div align="center">
-  <img src="strands-cosmos-logo.svg" alt="Strands Cosmos" width="180">
-  <h1>Strands Cosmos</h1>
-  <p><strong>NVIDIA Cosmos for Strands Agents — omnimodal world-model reasoning <em>and</em> generation, on local compute.</strong></p>
+---
+hide: [navigation, toc]
+template_class: sr-home
+---
+
+<div class="sr-hero" markdown>
+<div markdown>
+<p class="sr-hero__title">Any <em>vision</em> model. One <em>agent</em>.</p>
+<p class="sr-hero__lead">NVIDIA Cosmos as first-class Strands model providers. Omnimodal reasoning (video, image, audio) and generation (text→video with sound, image→video, robot actions) — on local compute, from the same Strands Agent surface.</p>
+<div class="sr-hero__actions">
+<a class="sr-btn sr-btn--primary" href="getting-started/quickstart/">Quickstart</a>
+<a class="sr-btn" href="guide/cosmos3/">Cosmos 3 guide</a>
+<span class="sr-install">uv pip install strands-cosmos<button class="sr-copy" data-clipboard-text="uv pip install strands-cosmos">copy</button></span>
 </div>
+</div>
+<div class="sr-hero__stage" markdown>
+<img src="strands-cosmos-demo-preview.gif" alt="Cosmos 3 reasoning and generation demo" style="width:100%;border-radius:8px;">
+</div>
+</div>
+
+<div class="sr-proof" markdown>
+<div><strong>4</strong><span>model providers (Cosmos 3 Reasoner &amp; Generator, Cosmos-Reason2 VLM &amp; Model)</span></div>
+<div><strong>45</strong><span><code>cosmos*</code> tools spanning the full pipeline</span></div>
+<div><strong>1</strong><span>Strands Agent surface — same API from Jetson edge to server GPUs</span></div>
+</div>
+
+
 
 Cosmos models become first-class **Strands model providers**: give your agent eyes that
 understand physics, and hands that can generate video, audio, and robot actions — plus

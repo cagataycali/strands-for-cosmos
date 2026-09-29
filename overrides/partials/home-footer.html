@@ -1,0 +1,43 @@
+{% set install = 'uv pip install strands-cosmos' %}
+{% set columns = [
+  ("Get started", [("Installation", "getting-started/installation/"), ("Quickstart", "getting-started/quickstart/"), ("Notebooks", "notebooks/")]),
+  ("Cosmos 3", [("Omnimodal", "guide/cosmos3/"), ("Training (SFT)", "guide/cosmos3-training/"), ("Video Understanding", "guide/video-understanding/"), ("Image Reasoning", "guide/image-reasoning/")]),
+  ("Guide", [("Chain-of-Thought", "guide/chain-of-thought/"), ("Tool Usage", "guide/tool-usage/"), ("Jetson Deployment", "guide/jetson/")]),
+  ("Examples", [("Overview", "examples/overview/"), ("Video Caption", "examples/video-caption/"), ("Driving Analysis", "examples/driving/"), ("Embodied Reasoning", "examples/embodied/")]),
+  ("Community", [("GitHub", config.repo_url), ("PyPI", "https://pypi.org/project/strands-cosmos/"), ("Discord", "https://discord.gg/strands"), ("Strands Agents", "https://strandsagents.com/"), ("Strands Labs", "https://github.com/strands-labs")]),
+] %}
+<div class="sr-cta"><div class="sr-cta__panel">
+  <p class="sr-cta__title">Give your agent eyes that reason and hands that generate.</p>
+  <p class="sr-cta__links">
+    <a href="{{ 'getting-started/quickstart/' | url }}">Quickstart &rarr;</a>
+    <a href="{{ 'guide/cosmos3/' | url }}">Cosmos 3 guide &rarr;</a>
+    <a href="{{ config.repo_url }}/tree/main/examples">Examples &rarr;</a>
+  </p>
+</div></div>
+<footer class="md-footer sr-footer">
+  <div class="sr-footer__inner md-grid">
+    <p class="sr-footer__kicker">Start building in seconds</p>
+    <p class="sr-install sr-install--footer">{{ install }}<button class="sr-copy" type="button" data-clipboard-text="{{ install | e }}">copy</button></p>
+    <div class="sr-footer__columns">
+      {% for title, links in columns %}
+        <div>
+          <p class="sr-footer__heading">{{ title }}</p>
+          <ul>
+            {% for label, href in links %}
+              <li><a href="{{ href if href.startswith('http') else href | url }}">{{ label }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="sr-footmark" aria-hidden="true">{% include "partials/wordmark.svg" %}</div>
+  <div class="sr-footer__legal md-grid">
+    <span class="sr-aws" aria-label="AWS">{% include "partials/aws.svg" %}</span>
+    <a href="https://aws.amazon.com/privacy/">Privacy</a>
+    <a href="https://aws.amazon.com/terms/">Site terms</a>
+    <a href="{{ config.repo_url }}/blob/main/LICENSE">License</a>
+    <a href="https://aws.amazon.com/legal/cookies/">Cookies</a>
+  </div>
+  <p class="sr-footer__copyright md-grid">&copy; {% if build_date_utc %}{{ build_date_utc.year }}{% else %}2026{% endif %}, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>
+</footer>
